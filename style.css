@@ -1,0 +1,76 @@
+body {
+    margin: auto;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 1.25rem;
+    max-width: 100vw;
+}
+
+a:hover,
+.hero a:hover,
+.homelink:hover {
+    text-decoration: underline;
+}
+
+header .top {
+    display: flex;
+	background-color: rgb(59, 35, 18);
+}
+
+nav {
+    padding: 0 2rem;
+}
+
+header .homelink {
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+	padding: 0 1rem;
+}
+
+.hero {
+    display: block;
+    background-image: url(/images/home-header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 40rem;
+}
+
+.hero h1 {
+    width: fit-content;
+    margin: 0;
+    position: relative;
+    top: 10rem;
+    left: 6rem;
+    padding: 1rem;
+}
+
+.product_button {
+    position: relative;
+    top: 10rem;
+    left: 20rem;
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 0.75rem 8rem;
+    text-transform: uppercase;
+}
+
+.info-picture {
+    border-radius: 2rem;
+    height: 10rem;
+    width: 10rem;
+}
